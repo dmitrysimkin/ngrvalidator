@@ -24,7 +24,7 @@
 
 - (void)loadView {
     [self setEdgesForExtendedLayout:UIRectEdgeLeft | UIRectEdgeBottom | UIRectEdgeRight];
-    NGRSimpleDemoView *view = [[NGRSimpleDemoView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
+    NGRSimpleDemoView *view = [[NGRSimpleDemoView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     view.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
     self.view = view;
     

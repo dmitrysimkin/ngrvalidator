@@ -38,7 +38,7 @@
 #pragma mark - View Lifecycle Methods
 
 - (void)loadView {
-    NGRComplexDemoView *view = [[NGRComplexDemoView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
+    NGRComplexDemoView *view = [[NGRComplexDemoView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     view.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
     self.view = view;
     

@@ -1,21 +1,28 @@
 PODS:
-  - Expecta (1.0.5)
-  - Nimble (6.1.0)
-  - Quick (1.1.0)
-  - Specta (1.0.5)
+  - Expecta (1.0.6)
+  - Nimble (8.0.5)
+  - Quick (2.2.0)
+  - Specta (1.0.7)
 
 DEPENDENCIES:
-  - Expecta (= 1.0.5)
-  - Nimble (= 6.1.0)
-  - Quick (= 1.1.0)
-  - Specta (= 1.0.5)
+  - Expecta
+  - Nimble
+  - Quick
+  - Specta
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Expecta
+    - Nimble
+    - Quick
+    - Specta
 
 SPEC CHECKSUMS:
-  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
-  Nimble: c53e6903fee94041b90ded74f135820437d8bf59
-  Quick: dafc587e21eed9f4cab3249b9f9015b0b7a7f71d
-  Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  Nimble: 4ab1aeb9b45553c75b9687196b0fa0713170a332
+  Quick: 7fb19e13be07b5dfb3b90d4f9824c855a11af40e
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
-PODFILE CHECKSUM: 891f44c3a75b3f20a9cabc88aca84394d180f380
+PODFILE CHECKSUM: a73d5e2c1af4af549b01442b3a1cac545b2440bb
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.8.4
